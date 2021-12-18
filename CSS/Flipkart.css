@@ -1,0 +1,270 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+body{
+ background-color: #f1f3f6;
+}
+
+/* Navbar Starts Here */
+
+.navBar{
+ height: 51px;
+ width: 98.9vw;
+ background-color: #2874f0;
+}
+
+#logo{
+ height: 19px;
+ position: absolute;
+ top: 11px;
+ left: 180px;
+}
+
+#tagline{
+ text-decoration: none; 
+ font-size: 11px;
+ color: #f0f0f0;
+ position: absolute;
+ top: 27px;
+ left: 179px;
+ font-family: Roboto ,Arial, sans-serif;
+}
+
+#plus{
+ color: #FFE500;
+ display: inline-block;
+ position: absolute;
+ top: 0px;
+ left: 38px;
+}
+
+#pluslogo{
+ height: 10px;
+ position: absolute;
+ top: 28px;
+ left: 240px;
+}
+
+#searchBox{
+ height: 31px;
+ width: 478px;
+ padding: 0px 16px;
+ border-radius: 2px 0px 0px 2px;
+ outline: 0 none;
+ font-size: 14px;
+ position: absolute;
+ top: 7px;
+ left: 259px;
+}
+
+#searchbox{
+ height: 14px;
+ position: absolute;
+ top: 17px;
+ left: 745px;
+ box-shadow: none;
+}
+
+.login{
+ background-color: #fff;
+ color: #2874f0;
+ font-family: Arial, Helvetica, sans-serif;
+ display: inline-block;
+ height: 18.2px;
+ width: 40px;
+ border-radius: 2px;
+ padding: 5px 40px;
+ position: absolute;
+ top: 10px;
+ left: 958px;
+ text-align: center;
+}
+
+/* Navbar Ends Here */
+
+
+/* Category Option Starts Here */
+
+.category{
+ background-color: #fff;
+ display: inline-block;
+ height: 100px;
+ width: 98.9vw;
+ box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+
+.shopcategory{
+ margin-top: 5px;
+ position: absolute;
+ display: flex;
+ height: 90px;
+ width: 1164px;
+ justify-content: space-between;
+ left: 108px;
+}
+
+.shop{
+ display: flex;
+ flex-direction: column;
+ height: 90px;
+ width: 94px;
+}
+
+.shop img{
+ height: 64px;
+ width: 64px;
+ margin-left: 14px;
+}
+
+.shop-text{
+ display: inline-block;
+ font-size: 14px;
+ font-weight: 500;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+}
+#sp_shop{
+ width: 130px;
+}
+
+.shop-text:hover{
+ color: #2874f0;
+ cursor: pointer;
+}
+
+/* Category Option Ends Here */
+
+
+/* Slideshow Starts Here */
+
+.slider-frame{
+ margin: 4px 6.5px;
+ overflow: hidden;
+ display: flex;
+ height: 257px;
+ width: 98.9vw;
+}
+
+@keyframes slider-animation {
+ 0%{right: 0px;}
+ 50%{right: 1700px;}
+ 100%{right: 3400px;}
+}
+
+.slider-images{
+ position: relative;
+ animation-name: slider-animation;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out; 
+}
+
+#manual-slider-left{
+ display: flex;
+ position: absolute;
+ top: 239px;
+ left: 3px;
+ height: 95px;
+ width: 47px;
+ background-color: #fff;
+ border-radius: 5px;
+}
+#manual-slider-right{
+ display: flex;
+ position: absolute;
+ top: 239px;
+ right: 3px;
+ height: 95px;
+ width: 47px;
+ background-color: #fff;
+ border-radius: 5px;
+}
+
+svg.left{
+ position: absolute;
+ top: 34px;
+ left: 16px;
+ transform: rotate(180deg);
+}
+svg.right{
+ position: absolute;
+ top: 34px;
+ right: 16px;
+}
+
+/* Slideshow Ends Here */
+
+
+/* Product Cards Starts Here */
+
+.product-cards-head{
+ margin: 10px 6.5px 0px 6.5px;
+ height: 53px;
+ width: 98.9vw;
+ background-color: #fff;
+ box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+ /* border-bottom: 0.1px solid black;  */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+#product-cards-head-text{
+ margin-left: 10px;
+ font-size: 22px;
+ font-weight: 500;
+ font-family: Arial, Helvetica, sans-serif;
+}
+#product-cards-head-btn{
+ margin-right: 10px;
+ background-color: #2874f0;
+ color: white;
+ font-size: 13px;
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 10px 20px;
+ height: 13px;
+ width: 46px;
+ border-radius: 2px;
+}
+
+.product-cards-body{
+ margin: 0px 6.5px;
+ height: 274px;
+ width: 99 vw;
+ background-color: #fff;
+ box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.product{
+ font-family: Arial, Helvetica, sans-serif;
+ height: 227px;
+ width: 195px;
+}
+.image img{
+ margin-top: 20px;
+ margin-left: 12px;
+ margin-right: 12px;
+ height: 150px;
+ width: 143px;
+}
+.text-1{
+ text-align: center;
+ font-size: 14px;
+ margin: 5px;
+}
+.text-2{
+ color: #388e3c;
+ font-size: 14px;
+ text-align: center;
+ margin: 5px;
+}
+.text-3{
+ color: #212121;
+ font-size: 14px;
+ text-align: center;
+ margin: 5px;
+}
